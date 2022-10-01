@@ -5,20 +5,28 @@ function download() {
   if (link.value != "") {
     var url = link.value;
 
-    var casee;
-    var id;
-    if (url.includes("v=")) {
-      casee = url.split("v=")[1];
-      id = casee;
+    if (
+      url.startsWith("https://youtube.com/") ||
+      url.startsWith("https://youtu.be/")
+    ) {
+      var casee;
+      var id;
+      if (url.includes("v=")) {
+        casee = url.split("v=")[1];
+        id = casee;
+      } else if (url.includes(".be/")) {
+        casee = url.split(".be/")[1];
+        id = casee;
+      } else if (url.includes("shorts/")) {
+        casee = url.split("shorts/")[1].substring(0, 11);
+        id = casee;
+      } else {
+        alert("Sorry!, this tool can only download Shorts or Videos content");
+      }
+    } else {
+      alert("please enter a valid youtube video link");
     }
-    if (url.includes(".be/")) {
-      casee = url.split(".be/")[1];
-      id = casee;
-    }
-    if (url.includes("shorts/")) {
-      casee = url.split("shorts/")[1].substring(0, 11);
-      id = casee;
-    }
+    
 
     document.querySelector(
       ".result1"
