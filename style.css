@@ -17,37 +17,60 @@ body{
 	
 }
 
-.from{
-	background: white;
-	width: 80%;
-	padding: 15px;
-	box-shadow: 0 0 30px black;
-	border-radius: 10px;
+.container{
+	display: inline-block;
 }
 
+
+.from{
+	align-items: center;
+	/*display: flex;*/
+	flex-direction: column;
+
+	padding: 10px;
+	justify-content: center;
+	margin: 15px;
+	background: white;
+	width: 60%;
+	
+	box-shadow: 0 0 30px black;
+	border-radius: 10px;
+	padding-right: 5px;
+}
+
+h3{
+	display: inline-block;
+	/*margin-bottom: 10px;*/
+}
 h1{
 text-align: center;
-font-size: 35px;
+font-size: 25px;
 background: red;
 color: white;
 border-radius: 5px;
 padding: 10px;
 }
 
-.link {
-	width: 100%;
-	height: 60px;
-	border: 2px solid black;
-	margin-top: 15px;
+
+input {
+    width: 60%;
+    height: 60px;
+    outline: none;
+	margin: 10px;
+	border-radius: 5px;
 	text-align: center;
-	border-radius: 10px;
-	font-size: 30px;
-	font-weight: bold;
+	display: inline-block;
+
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 1px solid black;
 }
 
 .format{
-	width: 100%;
-	height: 40px;
+	display: inline-block;
+	width: 30%;
+	height: 60px;
 	border: 2px solid black;
 	margin-top: 15px;
 	text-align: center;
@@ -57,15 +80,52 @@ padding: 10px;
 
 }
 
-.btn{
-	width: 100%;
-	height: 60px;
-	border: none;
-	margin-top: 15px;
-	text-align: center;
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	font-size: 25px;
-	border-radius: 20px;
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background: red;
+    padding: 15px 0px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+input:valid~button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+@media (max-width: 950px) {
+	h1{
+		font-size: 20px;
+	}
+	.from{
+		
+		width: 80%;
+		
+		
+	}
+	#vidImg{
+		height: 300px;
+		width: 95%;
+	}
+}
+
+@media (max-width: 550px) {
+	input {
+		width: 80%;
+		display: block;
+	}
+	.format{
+		display: block;
+		margin-left: 25px;
+		width: 80%;
+	}
 }
