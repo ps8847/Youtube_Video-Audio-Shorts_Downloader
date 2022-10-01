@@ -22,9 +22,11 @@ function download() {
         id = casee;
       } else {
         alert("Sorry!, this tool can only download Shorts or Videos content");
+        window.location.reload();
       }
     } else {
-      alert("please enter a valid youtube video link");
+      alert("please enter a valid youtube video/shorts link");
+      window.location.reload();
     }
     
 
