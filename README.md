@@ -27,7 +27,7 @@ To use the YouTube Video/Audio Shorts Downloader, follow these steps:
 
 ## Live Link
 
-You can access the live version of the YouTube Video/Audio Shorts Downloader [here](<link_to_live_version>).
+You can access the live version of the YouTube Video/Audio Shorts Downloader [here](<https://youtube-video-audio-shorts-downloader.vercel.app/>).
 
 ## Support
 
