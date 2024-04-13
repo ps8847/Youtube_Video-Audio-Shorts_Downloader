@@ -9,7 +9,7 @@ const App = () => {
 
   const handleDownload = async () => {
     setLoading(true);
-    const response = await axios.get(`http://localhost:4000/download?url=${urlValue}`);
+    const response = await axios.get(`https://youtube-video-audio-shorts-downloader.onrender.com/download?url=${urlValue}`);
     setData(response.data);
     setLoading(false);
     setUrlValue("");

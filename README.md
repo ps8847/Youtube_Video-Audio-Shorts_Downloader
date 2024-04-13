@@ -31,7 +31,7 @@ You can access the live version of the YouTube Video/Audio Shorts Downloader [he
 
 ## Support
 
-For any inquiries or assistance regarding the YouTube Video/Audio Shorts Downloader, feel free to reach out via [GitHub](https://github.com/<your_github_username>).
+For any inquiries or assistance regarding the YouTube Video/Audio Shorts Downloader, feel free to reach out via [GitHub](https://github.com/ps8847).
 
 ## License
 
