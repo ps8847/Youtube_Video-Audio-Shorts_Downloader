@@ -1,41 +1,38 @@
-# chance-youtube-downloader
-This app allows you to download video(s) from youtube
+# YouTube Video/Audio Shorts Downloader
 
-![2023-03-07_18-00](https://user-images.githubusercontent.com/67952319/223479814-36c3ebce-858e-42de-aad2-923f51d368f4.png)
+YouTube Video/Audio Shorts Downloader is a simple-to-use application that allows users to download YouTube videos or shorts by simply pasting the link. Users have the option to download either the video or the audio content.
 
-## How to run
+## Overview
 
-To run this project on your local machine make sure that all the following are checked
+The YouTube Video/Audio Shorts Downloader provides a convenient way for users to download content from YouTube. Whether it's a full-length video or a shorts, users can easily paste the link and choose whether to download the video or extract the audio.
 
-- [ ] Nodejs installed on your computer ([MacOS](https://nodejs.org/en/download/), [Windows](https://nodejs.org/en/download/), [Linux](https://nodejs.org/en/download/))
-- [ ] Git installed on your computer
+## Features
 
-Use the following commands to get started with the project
+- **Link Input**: Users can paste the link of the YouTube video or shorts they want to download.
+- **Download Options**: Users have the option to download the video or extract the audio from the provided link.
+- **Simple Interface**: The application features a straightforward interface for easy use.
+- **Quick Download**: Downloads content quickly and efficiently to the user's local system.
 
-Backend
-```js
-git clone https://github.com/chanceDira/chance-youtube-downloader.git
-cd chance-youtube-downloader
-cd backend
-npm install
-npm run dev
-open http://localhost:4000
-```
+## How to Use
 
-Frontend
-```js
-git clone https://github.com/chanceDira/chance-youtube-downloader.git
-cd chance-youtube-downloader
-cd frontend
-npm install
-npm run dev
-open http://localhost:8080
-```
+To use the YouTube Video/Audio Shorts Downloader, follow these steps:
 
-## Technologies
+1. **Access the Tool**: Visit the live link of the application in your web browser.
 
-To successfully navigate the codebase of the project, you will need undertanding of the following technologies that are being used to develop this application:
+2. **Paste Link**: Paste the link of the YouTube video or shorts into the provided input field.
 
-- Reactjs
-- Javascript
-- Tailwindcss
+3. **Select Download Option**: Choose whether to download the video or extract the audio from the provided link.
+
+4. **Download Content**: Click the download button to start the download process.
+
+## Live Link
+
+You can access the live version of the YouTube Video/Audio Shorts Downloader [here](<link_to_live_version>).
+
+## Support
+
+For any inquiries or assistance regarding the YouTube Video/Audio Shorts Downloader, feel free to reach out via [GitHub](https://github.com/<your_github_username>).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
